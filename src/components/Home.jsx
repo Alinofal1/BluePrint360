@@ -22,7 +22,7 @@ const Home = () => {
       <Cards />
       <Partners />
       <h1
-        className="text-6xl block text-center mt-4 text-[#206c8e] font-thin"
+        className="text-6xl block text-center mt-10 text-[#206c8e] font-thin"
         style={{ textShadow: "5px 5px 8px" }}
       >
         Our Partners

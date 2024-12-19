@@ -10,10 +10,10 @@ const AboutUs = () => {
         >
           About Us
         </h1>
-        <div className="flex flex-col-reverse items-center md:h-[450px] md:flex md:flex-row  md:justify-around">
-          <div className=" w-[300px] lg:w-[600px] ">
+        <div className="flex flex-col items-center md:h-[450px] md:flex md:flex-row md:justify-around mr-4 md:mr-0">
+          <div className=" w-[300px] lg:w-[600px] text-center mb-12 md:mb-0 md:text-left">
             <h1 className="text-5xl text-[#8ffff6] mb-6">Who We Are</h1>
-            <p>
+            <p className="text-balance">
               At Blueprint 360, we are a leading technology consultancy firm
               specializing in IT Governance, Digitization, Quality Management,
               and Process Automation. With a passion for innovation and a
@@ -26,11 +26,11 @@ const AboutUs = () => {
             </p>
           </div>
 
-          <div className=" w-[300px] lg:w-[600px] mb-20 md:mb-0">
-            <h1 className="text-5xl w-[500px] text-[#8ffff6] mb-6">
+          <div className=" w-[300px] lg:w-[600px]">
+            <h1 className="text-5xl  text-[#8ffff6] mb-6 text-center">
               Why Choose Us?
             </h1>
-            <p>
+            <p className="text-balance">
               At Blueprint 360, we don’t just deliver solutions; we build
               lasting partnerships. Our commitment to quality, innovation, and
               client success sets us apart. By leveraging strategic

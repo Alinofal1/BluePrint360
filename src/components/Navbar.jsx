@@ -1,20 +1,13 @@
 import React, { useState } from "react";
 import Logo from "./images/BluePrintLogo.png";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import { IoIosMenu } from "react-icons/io";
 import { IoMdCloseCircle } from "react-icons/io";
 import MobileNavbar from "./MobileNavbar";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
-
-  const scrollTop = () => {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: "smooth",
-    });
-  };
 
   return (
     <>
@@ -24,18 +17,52 @@ const Navbar = () => {
         <div className="hidden  md:block ms-auto">
           <ul className="flex space-x-5 mr-6">
             <li className="hover:text-gray-400 transition ease-in-out">
-              <Link to={"/"} onClick={scrollTop}>
+              <Link
+                to="hero-section"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={400}
+                className="hover:cursor-pointer"
+              >
                 Home
               </Link>
             </li>
             <li className="hover:text-gray-400 transition ease-in-out">
-              <a href="#services">Services</a>
+              <Link
+                to="services"
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration={400}
+                className="hover:cursor-pointer"
+              >
+                Services
+              </Link>
             </li>
             <li className="hover:text-gray-400 transition ease-in-out">
-              <a href="#Partners">Partners</a>
+              <Link
+                to="Partners"
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration={400}
+                className="hover:cursor-pointer"
+              >
+                Partners
+              </Link>
             </li>
             <li className="hover:text-gray-400 transition ease-in-out">
-              <a href="#about-us">About Us</a>
+              <Link
+                to="about-us"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={400}
+                className="hover:cursor-pointer"
+              >
+                About Us
+              </Link>
             </li>
             {/* <li className='hover:text-gray-400 transition ease-in-out'>
                     <Link to={'/case-studies'}>Case Studies</Link>

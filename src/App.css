@@ -22,11 +22,11 @@
   background-image: url("./components/images/partner.jpg");
 }
 .aboutus {
-  background-image: url('./components/images/aboutus.jpg');
+  background-image: url("./components/images/aboutus.jpg");
 }
 
 .footer {
-  background-image: url('./components/images/footer.png');
+  background-image: url("./components/images/footer.png");
 }
 
 .App-header {
@@ -39,6 +39,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 
 .App-link {
   color: #61dafb;

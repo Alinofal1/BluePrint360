@@ -4,41 +4,35 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #B4C8CB;
+  background-color: #b4c8cb;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 .hero-section {
-  background-image: url('./components/images/HeroBG.jpg');
-  
+  background-image: url("./components/images/HeroBG.jpg");
 }
 
- 
 ::-webkit-scrollbar {
   width: 5px;
 }
-
 
 ::-webkit-scrollbar-track {
   background: rgb(32, 37, 51);
 }
 
-
 ::-webkit-scrollbar-thumb {
   background: #888;
   border-radius: 10px;
-
 }
-
 
 ::-webkit-scrollbar-thumb:hover {
   background: white;
@@ -46,12 +40,11 @@ code {
 }
 
 div#main::-webkit-scrollbar-thumb {
-  background: rgba(255,204,102,0.25);
+  background: rgba(255, 204, 102, 0.25);
   -webkit-transition: background 1s;
   transition: background 1s;
 }
 
 div#main:hover::-webkit-scrollbar-thumb {
-  background: rgba(255,204,102,1);
-  
+  background: rgba(255, 204, 102, 1);
 }

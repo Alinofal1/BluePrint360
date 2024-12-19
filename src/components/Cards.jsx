@@ -12,8 +12,8 @@ const Cards = () => {
       img: CardImg1,
       color: "#FFFFFF",
       textcolor: "#116388",
-      h1: "IT Govermance",
-      text: "Policy creation, compliance frameworks, risk management.",
+      h1: "IT Governance",
+      text: "Procedures and Policies, ITSM, CMDB, Compliance Frameworks, Risk Management Dashboard & Reporting",
     },
     {
       id: "2",
@@ -28,8 +28,8 @@ const Cards = () => {
       img: CardImg5,
       color: "#FFFFFF",
       textcolor: "#116388",
-      h1: "Quality",
-      text: "Management: ISO standard implementations and quality audits.",
+      h1: "Quality & Project Management",
+      text: "Business Process Model and Notation (BPMN), ISO standard implementations and quality audits, ITIL.",
     },
     {
       id: "4",
@@ -37,7 +37,7 @@ const Cards = () => {
       color: "#192f3a",
       textcolor: "#FFFFFF",
       h1: "Consultation",
-      text: "Process automation, BI dashboards, GLPI-Zabbix-Grafana integration.",
+      text: "Process automation, Process Analysis, Gap Assessment, BRD, Security Assessment.",
     },
     {
       id: "5",
@@ -58,7 +58,7 @@ const Cards = () => {
           style={{ color: `${x.textcolor}` }}
         >
           <div
-            className="card-body mt-[50px] rounded-2xl min-h-[300px]"
+            className="card-body mt-[50px] rounded-2xl min-h-[330px]"
             style={{
               backgroundColor: `${x.color}`,
               boxShadow: "10px 10px 20px 3px #206c8e",
@@ -69,7 +69,7 @@ const Cards = () => {
               <div className="card-h1">
                 <h1 className="text-2xl">{x.h1}</h1>
                 <div className="card-text">
-                  <p className="p-2 pb-4">{x.text}</p>
+                  <p className="p-2 pb-4 text-balance">{x.text}</p>
                 </div>
               </div>
             </div>

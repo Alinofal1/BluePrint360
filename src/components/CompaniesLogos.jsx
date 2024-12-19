@@ -1,6 +1,8 @@
 import React from "react";
 import GLPI from "./images/glpi-logo.png";
 import Systack from "./images/cystack-logo.png";
+import { FaArrowRightLong } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const CompaniesLogos = () => {
   return (
@@ -15,13 +17,19 @@ const CompaniesLogos = () => {
             <div className="card-h1">
               <h1 className="text-2xl text-[#116388]">GLPI Network</h1>
               <div className="card-text pb-10 px-10">
-                <p className="p-2 pb-4 text-[#116388]">
+                <p className="p-2 pb-4 text-[#116388] text-left">
                   {" "}
                   As our valued partner, GLPI Network helps us deliver
                   comprehensive IT governance and asset management solutions.
                   Through GLPI, we provide clients with powerful tools to track
                   assets, manage incidents, and optimize IT operations.
                 </p>
+                <Link
+                  to={"/glpi"}
+                  className="hover:underline flex items-center text-[#11384a]"
+                >
+                  For More Details <FaArrowRightLong className="mx-1 mt-1" />
+                </Link>
               </div>
             </div>
           </div>
@@ -36,15 +44,22 @@ const CompaniesLogos = () => {
           <div className="card-img">
             <img src={Systack} alt="" className="w-40 m-auto p-8" />
             <div className="card-h1">
-              <h1 className="text-2xl text-[#116388]">Cyastack</h1>
+              <h1 className="text-2xl text-[#116388]">Cystack.ps </h1>
               <div className="card-text px-10 pb-10">
-                <p className="p-2 pb-4 text-[#116388]">
+                <p className="p-2 pb-4 text-[#116388] text-left">
                   {" "}
-                  In partnership with Cyastack, we ensure top-tier cybersecurity
-                  solutions. From threat detection to data protection, Cyastack
-                  empowers us to safeguard businesses with advanced and reliable
-                  security services.
+                  In partnership with Cystack.ps, we ensure top-tier
+                  cybersecurity solutions. From threat detection to data
+                  protection, Cystack.ps empowers us to safeguard businesses
+                  with advanced and reliable security services.
                 </p>
+                <Link
+                  to={"/cyastack"}
+                  className="hover:underline flex items-center text-[#11384a]"
+                >
+                  For More Details{" "}
+                  <FaArrowRightLong className="mx-1 mt-1 text-[#11384a]" />
+                </Link>
               </div>
             </div>
           </div>
