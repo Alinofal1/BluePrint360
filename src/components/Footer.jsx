@@ -11,10 +11,10 @@ const Footer = () => {
       <div className="flex flex-col py-6 md:flex-row md:justify-between md:items-center">
         <div className="flex flex-col justify-center">
           <h1 className="flex items-center my-2">
-            <FaPhoneAlt className="mr-3" /> Mobile Number: +972 593969999
+            <FaPhoneAlt className="mr-3" /> Mobile Number: +972 593-996-999
           </h1>
           <h1 className="flex items-center my-2">
-            <FaWhatsapp className="mr-3" /> WhatsApp: +972 593969999
+            <FaWhatsapp className="mr-3" /> WhatsApp: +972 593-996-999
           </h1>
 
           <h1 className="flex items-center my-2">
